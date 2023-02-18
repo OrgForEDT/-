@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1ddfaeb9-619a-4b44-bf35-a015b0b11a8b">
+  <producedTypes>
+    <objectType typeId="a92bb09b-cf97-48f4-a52f-7fe6b8be28b1" valueTypeId="053d8b68-884d-443a-a7c3-33d8b839525b"/>
+    <refType typeId="fb4d9933-4c8c-4ddb-bd41-d9fbc116a5d9" valueTypeId="e5c0270c-a4f9-43f2-ba7a-2b172bc05d65"/>
+    <selectionType typeId="03f82dfc-3499-4657-92f7-0a768d6e2706" valueTypeId="a185cd29-31c8-4e31-b20b-f031c9227fab"/>
+    <listType typeId="1b61cb09-af0c-4202-9021-1c0c03e0db48" valueTypeId="8fbf8665-1b63-489a-a7c3-b134bff2bdd8"/>
+    <managerType typeId="7460b550-f185-4d98-931a-87107550f942" valueTypeId="632fd276-d326-40dd-a1fe-204eb143a406"/>
+  </producedTypes>
+  <name>Контрагенты</name>
+  <synonym>
+    <key>en</key>
+    <value>Контрагенты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Контрагенты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Контрагенты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Контрагенты.Form.ItemForm</defaultObjectForm>
+  <defaultListForm>Catalog.Контрагенты.Form.ListForm</defaultListForm>
+  <forms uuid="818d2729-7295-47b6-9063-5b9b2da62e2d">
+    <name>ItemForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Item form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9d135de6-2568-470d-9778-2f877b676f1a">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
